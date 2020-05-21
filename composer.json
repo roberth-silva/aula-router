@@ -1,0 +1,27 @@
+{
+    "name": "roberth_silva/aula_router",
+    "description": "aula sobre roteamento de url em php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberth Silva",
+            "email": "roberth.silva@kroton.com.br"
+        }
+    ],
+    "require": {
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/router": "1.0.*"
+    },    
+    "config":{
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    }
+}
